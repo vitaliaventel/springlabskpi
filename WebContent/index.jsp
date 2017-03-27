@@ -77,10 +77,10 @@
     </div>
     
     <div class="w3-greyscale-max w3-hover-greyscale w3-col l3 m6 w3-margin-bottom">
-      <a href="#">
+     <a href="${pageContext.request.contextPath}/lab7/showTriangleForm">
         <div class="w3-display-container">
           <div class="w3-display-topleft w3-black w3-padding">Lab 2 [Task 1]</div>
-          <img src="${pageContext.request.contextPath}/resources/img/404.png" alt="House" style="width:100%">
+          <img src="${pageContext.request.contextPath}/resources/img/02.png" alt="House" style="width:100%">
         </div>
         </a>
     </div>
@@ -184,7 +184,7 @@ Every. Single. Day.
   <div class="w3-container w3-padding-32" id="contact">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-12">Contact</h3>
     <p>Lets get in touch and talk about your and our next project.</p>
-    <form action="/action_page.php" target="_blank">
+    <form action="email" method="POST">
       <input class="w3-input" type="text" placeholder="Name" required name="Name">
       <input class="w3-input w3-section" type="text" placeholder="Email" required name="Email">
       <input class="w3-input w3-section" type="text" placeholder="Subject" required name="Subject">
